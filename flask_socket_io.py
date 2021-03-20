@@ -42,5 +42,5 @@ def handle_join_room_event(data):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='localhost', port=5000)
+    app.run(debug=False, host='0.0.0.0')
     socketio.run(app ,debug=True) 
